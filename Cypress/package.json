@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./app/index.html -p 3000"
+    "start": "parcel ./app/index.html -p 3000",
+    "cypress": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run"
   },
   "author": "Vera Dias",
   "license": "ISC",
